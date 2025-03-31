@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="258.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tiktaktoealsapp.GameOverController">
+   <children>
+      <Label layoutX="68.0" layoutY="39.0" prefHeight="18.0" prefWidth="121.0" text="Das Spiel ist vorbei! " />
+      <Label layoutX="48.0" layoutY="65.0" text="Möchtest du nochmal spielen?" />
+      <Button fx:id="ja" layoutX="103.0" layoutY="164.0" mnemonicParsing="false" onAction="#onYesButtonClick" text="Yessssss" />
+      <Button fx:id="nein" layoutX="91.0" layoutY="273.0" mnemonicParsing="false" onAction="#onNoButtonClick" text="Nooooooo" />
+   </children>
+</AnchorPane>
